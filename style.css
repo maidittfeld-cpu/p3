@@ -140,11 +140,8 @@ main {
     width: 365px;
     height: auto;
     margin-bottom: 40px;
-     background: linear-gradient(
-      180deg,
-      #FAF5E9 0%,
-      #F9F0DA 50%,
-      #FBEBE1 100%
+     background: none(
+      
     );
 }
 
