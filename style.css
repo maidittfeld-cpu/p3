@@ -260,12 +260,12 @@ main {
     color: #582A2F;
     text-align: center;
     font-family: "Noto Serif Display", serif;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 500;
     line-height: 30px; /* 216.667% */
     margin-left: 40px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 /* Ikoner i højre kolonne */
