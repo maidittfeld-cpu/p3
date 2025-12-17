@@ -6,7 +6,7 @@ body {
     margin: 0;
     font-family: "Noto Serif Display", serif;
 
-    /* NY GRADIENT + ANIMATION */
+    /* GRADIENT + ANIMATION */
    background: linear-gradient(
   150deg,
   #FAF5E9 0%,
@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-/* TOPMENU -------------------------------------------------- */
+/* TOPMENU  */
 /* TRANSPARENT HEADER PÅ FORSIDEN */
 .header-hero {
   position: absolute;
@@ -114,18 +114,18 @@ header nav a:hover::after {
     width: 100%;
 }
 
-/* GENERELLE SEKTIONER -------------------------------------- */
+/* GENERELLE SEKTIONER  */
 main {
-    padding-top: 140px; /* plads til fixed header */
+    padding-top: 140px;
 }
 
 .section {
     padding: 120px 80px;
 }
 
-/* HERO ----------------------------------------------------- */
+/* HERO */
 .hero {
-    min-height: 100vh;      /* fylder hele skærmens højde */
+    min-height: 100vh;   
     text-align: center;
 
     display: flex;
@@ -260,7 +260,7 @@ main {
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
-    line-height: 30px; /* 216.667% */
+    line-height: 30px;
     margin-left: 40px;
     margin-top: 20px;
 }
@@ -291,7 +291,7 @@ main {
 }
 
 
-/* PROJEKTER ------------------------------------------------ */
+/* PROJEKTER  */
 .projects-section {
     background: #FCEFE3;
     text-align: center;
@@ -343,7 +343,7 @@ main {
     line-height: 24px;
 }
 
-/* KONTAKT -------------------------------------------------- */
+/* KONTAKT  */
 .contact-section {
     background: #FCEFE3;
     padding-bottom: 0;
@@ -436,9 +436,9 @@ main {
 
 .footer-icons {
   display: flex;
-  justify-content: center; /* centrerer ikonerne */
-  gap: 20px;               /* 20px mellem ikonerne */
-  margin-top: 20px;        /* afstand fra teksten */
+  justify-content: center;
+  gap: 20px; 
+  margin-top: 20px; 
 }
 
 .footer-icon {
@@ -453,9 +453,7 @@ main {
   opacity: 0.8;
 }
 
-/* =====================
-   MOBIL (burger + stacking)
-===================== */
+/* MOBIL (burger + stacking) */
 @media (max-width: 768px) {
 
   /* HEADER */
